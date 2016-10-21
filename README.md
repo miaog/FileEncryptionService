@@ -31,3 +31,25 @@ The purpose of this project is to create a file encryption service that will all
 * Allow login from other sites 
 * Error checking for correct encryption key (what to display when encryption key provided is incorrect when trying to upload/download files?)
 * Matching between users and their files
+
+-------
+
+## My work timeline (in order):
+* Read instructions and download prerequisites
+* Decide layout of the page
+* Code up layout and pick the neccessary headers: Login/Create an Account, Upload Files, Download Files
+ * CSS files from ajlkn@html5up.net
+* Begin login page
+ * Add login and sign up forms
+* Begin Upload file page
+ * Add ability to pick files from your computer
+ * Add redirection page that asks for encryption key
+ * Add redirection page separate from the root to allow for multiple uploads
+* Begin Download file page
+* Begin challenge of allowing users to create login info and adding it to the database 
+ * Reset password link, thank you for registration, change password pages created but not added
+* Stop coding (8:40pm)
+* Upload to git
+* Write Readme
+* Finish Readme - 9:01 pm Final Submission
+* Work will not be continued until review is finished
