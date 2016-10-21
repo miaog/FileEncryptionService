@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Gloria Miao Coding Challenge</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="homepage">
+		<div id="page-wrapper">
+		<!-- Header account creation -->
+			<div id="header">
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="login.html">Login/Create an Account</a></li>
+							<li><a href="fileupload.html">Upload Files</a></li>
+							<li><a href="uploadedfiles.html">Download Files</a></li>
+						</ul>
+					</nav>
+				
+
+				<!-- Inner -->
+				<div class="inner">
+					<header id="header">
+						<h1>File Encryptor/Decryptor</h1>
+						<p>File Uploaded! Submit a new file?<br />
+						</p>
+					</header>
+				</div>
+
+			</div>
+
+			<!-- File Upload -->
+			<form method="post" enctype="multipart/form-data" action="encryption.html">
+			    <label for="file-upload"><input type="file" id="file-upload"></label>
+			
+			<div>
+			<input type="submit" value="Send">
+			</form>
+			</div>
+
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
