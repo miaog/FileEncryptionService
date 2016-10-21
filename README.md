@@ -31,6 +31,7 @@ The purpose of this project is to create a file encryption service that will all
 * Allow login from other sites 
 * Error checking for correct encryption key (what to display when encryption key provided is incorrect when trying to upload/download files?)
 * Matching between users and their files
+* Deployment
 
 -------
 
@@ -51,5 +52,5 @@ The purpose of this project is to create a file encryption service that will all
 * Stop coding (8:40pm)
 * Upload to git
 * Write Readme
-* Finish Readme - 9:01 pm Final Submission
+* Finish Readme - 9:02 pm Final Submission
 * Work will not be continued until review is finished
